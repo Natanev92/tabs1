@@ -1,0 +1,37 @@
+.tabs{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    padding: 15px;
+    background-color: rgb(81, 101, 94);
+}
+    .tabs li{
+        display: inline;
+        list-style: none;
+        cursor: pointer;
+        color: white;
+        border: 1px solid black;
+        padding: 10px 50px;
+        box-shadow: 3px 3px 3px black;
+    }
+        .tabs li:hover{
+            background: rgb(154, 91, 43);
+            color: white;
+        }
+
+.active{
+    background: rgb(154, 91, 43);
+}
+.inactive{
+    background: rgb(154, 91, 43);
+}
+
+.activeTab{
+    display: inline-block;
+    width: 95%;
+    height: 500px;
+    background: rgb(10, 47, 72);
+    color: white;
+    border: 1px solid black;
+    box-shadow: 3px 3px 3px black;
+}
